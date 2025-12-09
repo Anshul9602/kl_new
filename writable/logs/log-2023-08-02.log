@@ -1,0 +1,891 @@
+CRITICAL - 2023-08-02 12:23:50 --> Call to undefined method App\Models\CartModel::findWById1
+in SYSTEMPATH\Model.php on line 848.
+ 1 APPPATH\Controllers\Cart.php(33): CodeIgniter\Model->__call('findWById1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:24:12 --> Call to undefined method App\Models\CartModel::findWById1
+in SYSTEMPATH\Model.php on line 848.
+ 1 APPPATH\Controllers\Cart.php(33): CodeIgniter\Model->__call('findWById1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:24:38 --> Call to undefined method App\Models\CartModel::findWById1
+in SYSTEMPATH\Model.php on line 848.
+ 1 APPPATH\Controllers\Cart.php(33): CodeIgniter\Model->__call('findWById1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:24:57 --> Call to undefined method App\Models\CartModel::findWById1
+in SYSTEMPATH\Model.php on line 848.
+ 1 APPPATH\Controllers\Cart.php(33): CodeIgniter\Model->__call('findWById1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:25:23 --> Call to undefined method App\Models\CartModel::findWById1
+in SYSTEMPATH\Model.php on line 848.
+ 1 APPPATH\Controllers\Cart.php(33): CodeIgniter\Model->__call('findWById1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 17:57:08 --> Undefined array key "t_type"
+in APPPATH\Models\CartModel.php on line 153.
+ 1 APPPATH\Models\CartModel.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "t_type"', 'C:\\xampp\\htdocs\\ml_back\\app\\Models\\CartModel.php', 153)
+ 2 APPPATH\Controllers\Cart.php(61): App\Models\CartModel->activity([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:27:54 --> Undefined array key "$total_am"
+in APPPATH\Controllers\Cart.php on line 36.
+ 1 APPPATH\Controllers\Cart.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Cart.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:28:02 --> Declaration of App\Models\CartModel::save($data) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\CartModel.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-08-02 12:28:21 --> Undefined array key "$total_am"
+in APPPATH\Controllers\Cart.php on line 36.
+ 1 APPPATH\Controllers\Cart.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Cart.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:28:59 --> Undefined array key "$total_am"
+in APPPATH\Controllers\Cart.php on line 36.
+ 1 APPPATH\Controllers\Cart.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Cart.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:29:46 --> Undefined array key "$total_am"
+in APPPATH\Controllers\Cart.php on line 36.
+ 1 APPPATH\Controllers\Cart.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Cart.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:30:04 --> Undefined array key "$total_am"
+in APPPATH\Controllers\Cart.php on line 36.
+ 1 APPPATH\Controllers\Cart.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Cart.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:31:38 --> Undefined array key "$total_am"
+in APPPATH\Controllers\Cart.php on line 36.
+ 1 APPPATH\Controllers\Cart.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Cart.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:32:03 --> Undefined array key "$total_am"
+in APPPATH\Controllers\Cart.php on line 37.
+ 1 APPPATH\Controllers\Cart.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Cart.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:34:52 --> Undefined array key "$total_am"
+in APPPATH\Controllers\Cart.php on line 37.
+ 1 APPPATH\Controllers\Cart.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Cart.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:35:26 --> Undefined array key "$total_am"
+in APPPATH\Controllers\Cart.php on line 37.
+ 1 APPPATH\Controllers\Cart.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Cart.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:38:14 --> Undefined array key "$total_am"
+in APPPATH\Controllers\Cart.php on line 42.
+ 1 APPPATH\Controllers\Cart.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Cart.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:39:00 --> Trying to access array offset on value of type int
+in APPPATH\Models\CartModel.php on line 227.
+ 1 APPPATH\Models\CartModel.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\ml_back\\app\\Models\\CartModel.php', 227)
+ 2 APPPATH\Controllers\Cart.php(44): App\Models\CartModel->update_am('3', -110000)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:46:00 --> Trying to access array offset on value of type int
+in APPPATH\Models\CartModel.php on line 227.
+ 1 APPPATH\Models\CartModel.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\ml_back\\app\\Models\\CartModel.php', 227)
+ 2 APPPATH\Controllers\Cart.php(44): App\Models\CartModel->update_am('3', 49000)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:46:49 --> Trying to access array offset on value of type int
+in APPPATH\Models\CartModel.php on line 228.
+ 1 APPPATH\Models\CartModel.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\ml_back\\app\\Models\\CartModel.php', 228)
+ 2 APPPATH\Controllers\Cart.php(44): App\Models\CartModel->update_am('3', 49000)
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 12:48:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 3' at line 3 in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `wallet`...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `wallet`...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `wallet`...')
+#3 C:\xampp\htdocs\ml_back\app\Models\CartModel.php(238): CodeIgniter\Database\BaseConnection->query('UPDATE `wallet`...')
+#4 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(44): App\Models\CartModel->update_am('3', 49000)
+#5 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->store()
+#6 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-02 12:48:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 3' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `wallet` SET  
+        total_amount= \'49000\',
+         WHERE user_id = 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `wallet` SET  
+        total_amount= \'49000\',
+         WHERE user_id = 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `wallet` SET  
+        total_amount= \'49000\',
+         WHERE user_id = 3')
+ 4 APPPATH\Models\CartModel.php(238): CodeIgniter\Database\BaseConnection->query('UPDATE `wallet` SET  
+        total_amount= \'49000\',
+         WHERE user_id = 3')
+ 5 APPPATH\Controllers\Cart.php(44): App\Models\CartModel->update_am('3', 49000)
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 12:49:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 3' at line 3 in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `wallet`...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `wallet`...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `wallet`...')
+#3 C:\xampp\htdocs\ml_back\app\Models\CartModel.php(238): CodeIgniter\Database\BaseConnection->query('UPDATE `wallet`...')
+#4 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(44): App\Models\CartModel->update_am('3', 49000)
+#5 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->store()
+#6 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-02 12:49:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 3' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `wallet` SET  
+        total_amount= \'49000\',
+         WHERE user_id = 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `wallet` SET  
+        total_amount= \'49000\',
+         WHERE user_id = 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `wallet` SET  
+        total_amount= \'49000\',
+         WHERE user_id = 3')
+ 4 APPPATH\Models\CartModel.php(238): CodeIgniter\Database\BaseConnection->query('UPDATE `wallet` SET  
+        total_amount= \'49000\',
+         WHERE user_id = 3')
+ 5 APPPATH\Controllers\Cart.php(44): App\Models\CartModel->update_am('3', 49000)
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 12:49:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 3' at line 3 in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `wallet`...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `wallet`...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `wallet`...')
+#3 C:\xampp\htdocs\ml_back\app\Models\CartModel.php(238): CodeIgniter\Database\BaseConnection->query('UPDATE `wallet`...')
+#4 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(44): App\Models\CartModel->update_am('3', 49000)
+#5 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->store()
+#6 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-02 12:49:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE user_id = 3' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `wallet` SET  
+        total_amount= \'49000\',
+         WHERE user_id = 3', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `wallet` SET  
+        total_amount= \'49000\',
+         WHERE user_id = 3')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `wallet` SET  
+        total_amount= \'49000\',
+         WHERE user_id = 3')
+ 4 APPPATH\Models\CartModel.php(238): CodeIgniter\Database\BaseConnection->query('UPDATE `wallet` SET  
+        total_amount= \'49000\',
+         WHERE user_id = 3')
+ 5 APPPATH\Controllers\Cart.php(44): App\Models\CartModel->update_am('3', 49000)
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:52:58 --> Undefined array key "status"
+in APPPATH\Models\CartModel.php on line 156.
+ 1 APPPATH\Models\CartModel.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\ml_back\\app\\Models\\CartModel.php', 156)
+ 2 APPPATH\Controllers\Cart.php(63): App\Models\CartModel->activity([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 12:53:28 --> Undefined array key "status"
+in APPPATH\Models\CartModel.php on line 156.
+ 1 APPPATH\Models\CartModel.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\ml_back\\app\\Models\\CartModel.php', 156)
+ 2 APPPATH\Controllers\Cart.php(63): App\Models\CartModel->activity([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 17:22:32 --> Undefined array key "$total_am"
+in APPPATH\Controllers\Cart.php on line 48.
+ 1 APPPATH\Controllers\Cart.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Cart.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 17:24:17 --> Undefined array key "$total_am"
+in APPPATH\Controllers\Cart.php on line 48.
+ 1 APPPATH\Controllers\Cart.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "$total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Cart.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:44:19 --> mysqli_sql_exception: Unknown column 'w_id' in 'where clause' in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ml_back\app\Models\CartModel.php(75): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(103): App\Models\CartModel->findWById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:44:19 --> Unknown column 'w_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `wallet`
+WHERE `w_id` = \'1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `wallet`
+WHERE `w_id` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `wallet`
+WHERE `w_id` = \'1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `wallet`
+WHERE `w_id` = :w_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\CartModel.php(75): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Cart.php(103): App\Models\CartModel->findWById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:47:22 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(75): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(35): App\Models\TransactionModel->findAll()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(109): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:47:22 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransactionModel.php(75): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(35): App\Models\TransactionModel->findAll()
+ 8 APPPATH\Controllers\Cart.php(109): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:47:42 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(75): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(35): App\Models\TransactionModel->findAll()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(109): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:47:42 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransactionModel.php(75): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(35): App\Models\TransactionModel->findAll()
+ 8 APPPATH\Controllers\Cart.php(109): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:49:20 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(75): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(35): App\Models\TransactionModel->findAll()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:49:20 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransactionModel.php(75): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(35): App\Models\TransactionModel->findAll()
+ 8 APPPATH\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:49:27 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(75): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(35): App\Models\TransactionModel->findAll()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:49:27 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransactionModel.php(75): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(35): App\Models\TransactionModel->findAll()
+ 8 APPPATH\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:49:34 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(75): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(35): App\Models\TransactionModel->findAll()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:49:34 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransactionModel.php(75): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(35): App\Models\TransactionModel->findAll()
+ 8 APPPATH\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:49:43 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(75): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(35): App\Models\TransactionModel->findAll()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:49:43 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransactionModel.php(75): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(35): App\Models\TransactionModel->findAll()
+ 8 APPPATH\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:50:00 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(76): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(36): App\Models\TransactionModel->findAll()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:50:00 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransactionModel.php(76): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(36): App\Models\TransactionModel->findAll()
+ 8 APPPATH\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:50:10 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(76): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(36): App\Models\TransactionModel->findAll()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:50:10 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransactionModel.php(76): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(36): App\Models\TransactionModel->findAll()
+ 8 APPPATH\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:51:42 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(76): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(36): App\Models\TransactionModel->findAll()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:51:42 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransactionModel.php(76): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(36): App\Models\TransactionModel->findAll()
+ 8 APPPATH\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:53:42 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(62): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(36): App\Models\TransactionModel->findAll()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:53:42 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransactionModel.php(62): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(36): App\Models\TransactionModel->findAll()
+ 8 APPPATH\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:54:04 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(63): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(36): App\Models\TransactionModel->findAll()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:54:04 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransactionModel.php(63): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(36): App\Models\TransactionModel->findAll()
+ 8 APPPATH\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:54:20 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(64): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(36): App\Models\TransactionModel->findAll()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:54:20 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\TransactionModel.php(64): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransactionModel.php(36): App\Models\TransactionModel->findAll()
+ 8 APPPATH\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-02 17:55:48 --> mysqli_sql_exception: Table 'apis.transaction' doesn't exist in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\ml_back\app\Models\TransactionModel.php(36): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\ml_back\app\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+#8 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#10 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-08-02 17:55:48 --> Table 'apis.transaction' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = \'1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+WHERE `wallet_id` = :wallet_id:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\TransactionModel.php(36): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Cart.php(108): App\Models\TransactionModel->findTById('1')
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Cart->t_all('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 19:09:32 --> Undefined array key "total_am"
+in APPPATH\Models\BidModel.php on line 138.
+ 1 APPPATH\Models\BidModel.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Models\\BidModel.php', 138)
+ 2 APPPATH\Controllers\Bid.php(46): App\Models\BidModel->save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 19:10:28 --> Undefined array key "total_am"
+in APPPATH\Models\BidModel.php on line 141.
+ 1 APPPATH\Models\BidModel.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Models\\BidModel.php', 141)
+ 2 APPPATH\Controllers\Bid.php(46): App\Models\BidModel->save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 19:12:28 --> Undefined array key "total_am"
+in APPPATH\Models\BidModel.php on line 146.
+ 1 APPPATH\Models\BidModel.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Models\\BidModel.php', 146)
+ 2 APPPATH\Controllers\Bid.php(46): App\Models\BidModel->save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 19:12:51 --> Undefined array key "total_am"
+in APPPATH\Models\BidModel.php on line 146.
+ 1 APPPATH\Models\BidModel.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Models\\BidModel.php', 146)
+ 2 APPPATH\Controllers\Bid.php(46): App\Models\BidModel->save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-02 19:13:05 --> Undefined array key "total_am"
+in APPPATH\Models\BidModel.php on line 146.
+ 1 APPPATH\Models\BidModel.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_am"', 'C:\\xampp\\htdocs\\ml_back\\app\\Models\\BidModel.php', 146)
+ 2 APPPATH\Controllers\Bid.php(46): App\Models\BidModel->save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')

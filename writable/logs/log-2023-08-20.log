@@ -1,0 +1,70 @@
+CRITICAL - 2023-08-20 09:23:33 --> Too few arguments to function App\Controllers\Number::gt_id(), 0 passed in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Number.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Number->gt_id()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Number))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-20 09:25:11 --> Too few arguments to function App\Controllers\Number::gt_id(), 0 passed in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Number.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Number->gt_id()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Number))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-20 09:25:46 --> Too few arguments to function App\Controllers\Number::gt_id(), 0 passed in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Number.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Number->gt_id()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Number))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-20 09:26:48 --> Too few arguments to function App\Controllers\Number::show_ank(), 0 passed in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Number.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Number->show_ank()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Number))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-20 09:27:05 --> Too few arguments to function App\Controllers\Number::show_ank(), 0 passed in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Number.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Number->show_ank()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Number))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-20 09:28:24 --> Too few arguments to function App\Controllers\Number::show_ank(), 0 passed in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Number.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Number->show_ank()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Number))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-20 09:30:48 --> Too few arguments to function App\Controllers\Number::show_ank(), 0 passed in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Number.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Number->show_ank()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Number))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-20 09:31:35 --> Too few arguments to function App\Controllers\Number::show_ank(), 0 passed in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Number.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Number->show_ank()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Number))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-20 13:19:24 --> Too few arguments to function App\Controllers\Number::show_ank(), 0 passed in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Number.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Number->show_ank()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Number))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-20 13:27:38 --> Too few arguments to function App\Controllers\Number::show_ank(), 0 passed in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\Number.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Number->show_ank()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Number))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')

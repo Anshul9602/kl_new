@@ -1,0 +1,419 @@
+CRITICAL - 2023-08-27 10:27:16 --> Undefined array key "g_id"
+in APPPATH\Controllers\AUsers.php on line 27.
+ 1 APPPATH\Controllers\AUsers.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "g_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\AUsers.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AUsers->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AUsers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 10:34:00 --> Undefined array key "user_id"
+in APPPATH\Controllers\AUsers.php on line 30.
+ 1 APPPATH\Controllers\AUsers.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\AUsers.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AUsers->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AUsers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 10:35:13 --> Undefined array key "user_id"
+in APPPATH\Controllers\AUsers.php on line 28.
+ 1 APPPATH\Controllers\AUsers.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\AUsers.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AUsers->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AUsers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 10:56:37 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\BaseController.php on line 129.
+ 1 APPPATH\Controllers\Auth.php(156): App\Controllers\BaseController->validateRequest1([...], [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 10:57:17 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\BaseController.php on line 129.
+ 1 APPPATH\Controllers\Auth.php(156): App\Controllers\BaseController->validateRequest1([...], [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 10:57:50 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\BaseController.php on line 129.
+ 1 APPPATH\Controllers\Auth.php(156): App\Controllers\BaseController->validateRequest1([...], [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:05:41 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:06:10 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:07:02 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:07:32 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:08:21 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:08:42 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:09:01 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:09:50 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:10:02 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:12:17 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:13:34 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:17:11 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 11:20:22 --> Class "App\Models\AdminUserModel" not found
+in APPPATH\Controllers\Auth.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 12:24:44 --> Undefined array key "user_id"
+in APPPATH\Controllers\AUsers.php on line 28.
+ 1 APPPATH\Controllers\AUsers.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\AUsers.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AUsers->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AUsers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 12:25:21 --> Undefined array key "user_id"
+in APPPATH\Controllers\AUsers.php on line 28.
+ 1 APPPATH\Controllers\AUsers.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\AUsers.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AUsers->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AUsers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 12:26:44 --> Undefined array key "user_id"
+in APPPATH\Controllers\AUsers.php on line 28.
+ 1 APPPATH\Controllers\AUsers.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\AUsers.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AUsers->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AUsers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 12:27:10 --> Undefined array key "user_id"
+in APPPATH\Controllers\AUsers.php on line 32.
+ 1 APPPATH\Controllers\AUsers.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\AUsers.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AUsers->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AUsers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 12:27:27 --> Undefined array key "user_id"
+in APPPATH\Controllers\AUsers.php on line 32.
+ 1 APPPATH\Controllers\AUsers.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\AUsers.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AUsers->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AUsers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 12:27:44 --> Undefined array key "user_id"
+in APPPATH\Controllers\AUsers.php on line 32.
+ 1 APPPATH\Controllers\AUsers.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\AUsers.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AUsers->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AUsers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 12:28:35 --> Undefined array key "user_id"
+in APPPATH\Controllers\AUsers.php on line 32.
+ 1 APPPATH\Controllers\AUsers.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\AUsers.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AUsers->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AUsers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 12:32:27 --> wallet does not exist for specified id
+in APPPATH\Models\CartModel.php on line 121.
+ 1 APPPATH\Controllers\AUsers.php(25): App\Models\CartModel->findUById('2')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\AUsers->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AUsers))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 13:39:09 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Config\Routes.php on line 136.
+ 1 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+ERROR - 2023-08-27 18:30:17 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'apis', 3306, '', 0)
+#1 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\com\Desktop\ml_back\app\Models\BasicModel.php(119): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\Users\com\Desktop\ml_back\app\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+#5 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->rate()
+#6 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+#7 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\com\Desktop\ml_back\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\De...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\com\Desktop\ml_back\app\Models\BasicModel.php(119): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\Users\com\Desktop\ml_back\app\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+#4 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->rate()
+#5 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+#6 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\com\Desktop\ml_back\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\De...')
+#9 {main}
+CRITICAL - 2023-08-27 18:30:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\BasicModel.php(119): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `g_rate`')
+ 3 APPPATH\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->rate()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+ERROR - 2023-08-27 18:30:46 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'apis', 3306, '', 0)
+#1 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\com\Desktop\ml_back\app\Models\BasicModel.php(119): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\Users\com\Desktop\ml_back\app\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+#5 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->rate()
+#6 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+#7 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\com\Desktop\ml_back\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\De...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\com\Desktop\ml_back\app\Models\BasicModel.php(119): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#3 C:\Users\com\Desktop\ml_back\app\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+#4 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Basic->rate()
+#5 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+#6 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\com\Desktop\ml_back\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\De...')
+#9 {main}
+CRITICAL - 2023-08-27 18:30:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\BasicModel.php(119): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `g_rate`')
+ 3 APPPATH\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->rate()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 18:31:01 --> App\Models\BasicModel::rate(): Return value must be of type bool, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\BasicModel.php on line 123.
+ 1 APPPATH\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->rate()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 18:31:09 --> App\Models\BasicModel::rate(): Return value must be of type bool, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\BasicModel.php on line 123.
+ 1 APPPATH\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->rate()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 18:31:43 --> App\Models\BasicModel::rate(): Return value must be of type bool, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\BasicModel.php on line 124.
+ 1 APPPATH\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->rate()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 18:33:58 --> Undefined variable $post
+in APPPATH\Models\BasicModel.php on line 121.
+ 1 APPPATH\Models\BasicModel.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $post', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Models\\BasicModel.php', 121)
+ 2 APPPATH\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->rate()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 18:34:25 --> App\Models\BasicModel::rate(): Return value must be of type bool, array returned
+in APPPATH\Models\BasicModel.php on line 124.
+ 1 APPPATH\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->rate()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 18:35:17 --> App\Models\BasicModel::rate(): Return value must be of type bool, array returned
+in APPPATH\Models\BasicModel.php on line 124.
+ 1 APPPATH\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->rate()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 18:35:42 --> App\Models\BasicModel::rate(): Return value must be of type bool, array returned
+in APPPATH\Models\BasicModel.php on line 124.
+ 1 APPPATH\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->rate()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 18:36:03 --> Undefined variable $result
+in APPPATH\Models\BasicModel.php on line 119.
+ 1 APPPATH\Models\BasicModel.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Models\\BasicModel.php', 119)
+ 2 APPPATH\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->rate()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 18:36:18 --> App\Models\BasicModel::rate(): Return value must be of type bool, array returned
+in APPPATH\Models\BasicModel.php on line 124.
+ 1 APPPATH\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->rate()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-27 18:37:21 --> App\Models\BasicModel::rate(): Return value must be of type bool, array returned
+in APPPATH\Models\BasicModel.php on line 123.
+ 1 APPPATH\Controllers\Basic.php(28): App\Models\BasicModel->rate()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->rate()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+ERROR - 2023-08-27 19:12:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE g_id = 9' at line 8 in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `g_servi...', 0)
+#1 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `g_servi...')
+#2 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `g_servi...')
+#3 C:\Users\com\Desktop\ml_back\app\Models\PostModel.php(171): CodeIgniter\Database\BaseConnection->query('UPDATE `g_servi...')
+#4 C:\Users\com\Desktop\ml_back\app\Controllers\Users.php(168): App\Models\PostModel->update1('9', Array)
+#5 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Users->update('9')
+#6 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\com\Desktop\ml_back\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\De...')
+#10 {main}
+CRITICAL - 2023-08-27 19:12:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE g_id = 9' at line 8
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `g_service` SET  
+        g_title= \'game 3\',
+        g_name_hindi= \'10:01\',
+        open_t= \'maket_status\',
+        close_t= \'11.00\',
+        status= \'1\',
+        maket_status= \'1\',
+         WHERE g_id = 9', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `g_service` SET  
+        g_title= \'game 3\',
+        g_name_hindi= \'10:01\',
+        open_t= \'maket_status\',
+        close_t= \'11.00\',
+        status= \'1\',
+        maket_status= \'1\',
+         WHERE g_id = 9')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `g_service` SET  
+        g_title= \'game 3\',
+        g_name_hindi= \'10:01\',
+        open_t= \'maket_status\',
+        close_t= \'11.00\',
+        status= \'1\',
+        maket_status= \'1\',
+         WHERE g_id = 9')
+ 4 APPPATH\Models\PostModel.php(171): CodeIgniter\Database\BaseConnection->query('UPDATE `g_service` SET  
+        g_title= \'game 3\',
+        g_name_hindi= \'10:01\',
+        open_t= \'maket_status\',
+        close_t= \'11.00\',
+        status= \'1\',
+        maket_status= \'1\',
+         WHERE g_id = 9')
+ 5 APPPATH\Controllers\Users.php(168): App\Models\PostModel->update1('9', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->update('9')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')

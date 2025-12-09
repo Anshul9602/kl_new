@@ -1,0 +1,231 @@
+CRITICAL - 2023-09-16 00:37:23 --> Call to a member function format() on bool
+in APPPATH\Controllers\Result.php on line 575.
+ 1 APPPATH\Controllers\Result.php(549): App\Controllers\Result->win_save([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 00:39:06 --> Undefined array key "Single_Digit_Amount"
+in APPPATH\Controllers\Result.php on line 623.
+ 1 APPPATH\Controllers\Result.php(623): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Single_Digit_Amount"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 623)
+ 2 APPPATH\Controllers\Result.php(549): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 00:41:16 --> Undefined array key "Single_Digit_Amount"
+in APPPATH\Controllers\Result.php on line 625.
+ 1 APPPATH\Controllers\Result.php(625): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Single_Digit_Amount"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 625)
+ 2 APPPATH\Controllers\Result.php(549): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 00:42:37 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Result.php on line 625.
+ 1 APPPATH\Controllers\Result.php(549): App\Controllers\Result->win_save([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 00:43:26 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Result.php on line 625.
+ 1 APPPATH\Controllers\Result.php(549): App\Controllers\Result->win_save([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 00:45:06 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Result.php on line 615.
+ 1 APPPATH\Controllers\Result.php(549): App\Controllers\Result->win_save([...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:06:19 --> Call to undefined method App\Models\BasicModel::findUById
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Result.php(645): CodeIgniter\Model->__call('findUById', [...])
+ 2 APPPATH\Controllers\Result.php(550): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:09:18 --> Call to undefined method App\Models\BasicModel::findUById
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Result.php(646): CodeIgniter\Model->__call('findUById', [...])
+ 2 APPPATH\Controllers\Result.php(550): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:11:33 --> Undefined array key "total_am"
+in APPPATH\Models\CartModel.php on line 229.
+ 1 APPPATH\Models\CartModel.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_am"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Models\\CartModel.php', 229)
+ 2 APPPATH\Controllers\Result.php(653): App\Models\CartModel->activity([...])
+ 3 APPPATH\Controllers\Result.php(550): App\Controllers\Result->win_save([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:12:11 --> Undefined array key "total_am"
+in APPPATH\Models\CartModel.php on line 229.
+ 1 APPPATH\Models\CartModel.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_am"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Models\\CartModel.php', 229)
+ 2 APPPATH\Controllers\Result.php(651): App\Models\CartModel->activity([...])
+ 3 APPPATH\Controllers\Result.php(550): App\Controllers\Result->win_save([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:12:42 --> Undefined array key "total_am"
+in APPPATH\Models\CartModel.php on line 229.
+ 1 APPPATH\Models\CartModel.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_am"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Models\\CartModel.php', 229)
+ 2 APPPATH\Controllers\Result.php(651): App\Models\CartModel->activity([...])
+ 3 APPPATH\Controllers\Result.php(550): App\Controllers\Result->win_save([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:15:41 --> Call to undefined method App\Models\BasicModel::findUById
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Result.php(646): CodeIgniter\Model->__call('findUById', [...])
+ 2 APPPATH\Controllers\Result.php(550): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:28:22 --> Undefined array key "b_id"
+in APPPATH\Controllers\Result.php on line 845.
+ 1 APPPATH\Controllers\Result.php(845): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "b_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 845)
+ 2 APPPATH\Controllers\Result.php(550): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:29:03 --> Undefined array key "b_id"
+in APPPATH\Controllers\Result.php on line 845.
+ 1 APPPATH\Controllers\Result.php(845): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "b_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 845)
+ 2 APPPATH\Controllers\Result.php(550): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:30:06 --> Undefined array key "b_id"
+in APPPATH\Controllers\Result.php on line 845.
+ 1 APPPATH\Controllers\Result.php(845): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "b_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 845)
+ 2 APPPATH\Controllers\Result.php(550): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:32:04 --> Undefined array key "b_id"
+in APPPATH\Controllers\Result.php on line 845.
+ 1 APPPATH\Controllers\Result.php(845): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "b_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 845)
+ 2 APPPATH\Controllers\Result.php(550): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:33:16 --> Undefined array key "b_id"
+in APPPATH\Controllers\Result.php on line 845.
+ 1 APPPATH\Controllers\Result.php(845): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "b_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 845)
+ 2 APPPATH\Controllers\Result.php(550): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:34:13 --> Undefined array key "b_id"
+in APPPATH\Controllers\Result.php on line 845.
+ 1 APPPATH\Controllers\Result.php(845): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "b_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 845)
+ 2 APPPATH\Controllers\Result.php(550): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:36:55 --> Undefined array key "b_id"
+in APPPATH\Controllers\Result.php on line 846.
+ 1 APPPATH\Controllers\Result.php(846): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "b_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 846)
+ 2 APPPATH\Controllers\Result.php(551): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:44:56 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 619.
+ 1 APPPATH\Controllers\Result.php(619): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 619)
+ 2 APPPATH\Controllers\Result.php(551): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 01:45:57 --> Array to string conversion
+in APPPATH\Controllers\Result.php on line 619.
+ 1 APPPATH\Controllers\Result.php(619): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 619)
+ 2 APPPATH\Controllers\Result.php(551): App\Controllers\Result->win_save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 20:29:11 --> Undefined array key "number"
+in APPPATH\Controllers\Basic.php on line 114.
+ 1 APPPATH\Controllers\Basic.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "number"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Basic.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->otp_send()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 20:29:46 --> Array to string conversion
+in APPPATH\Controllers\Basic.php on line 109.
+ 1 APPPATH\Controllers\Basic.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Basic.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->otp_send()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 20:30:09 --> Undefined array key "number"
+in APPPATH\Controllers\Basic.php on line 114.
+ 1 APPPATH\Controllers\Basic.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "number"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Basic.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->otp_send()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 20:31:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Basic.php on line 153.
+ 1 APPPATH\Controllers\Basic.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Basic.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->otp_send()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-16 20:32:38 --> file_get_contents(http://cloud.smsindiahub.in/vendorsms/pushsms.aspx?APIKey=mk9FmduXikm530fTCyirdg&amp;msisdn=919602964437&amp;sid=AREPLY&amp;msg=Your One Time Password is. 8511. Thanks SMSINDIAHUB&amp;fl=0&amp;gwid=2): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+in APPPATH\Controllers\Basic.php on line 126.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://cloud.smsindiahub.in/vendorsms/pushsms.aspx?APIKey=mk9FmduXikm530fTCyirdg&amp;msisdn=919602964437&amp;sid=AREPLY&amp;msg=Your One Time Password is. 8511. Thanks SMSINDIAHUB&amp;fl=0&amp;gwid=2): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Basic.php', 126)
+ 2 APPPATH\Controllers\Basic.php(126): file_get_contents('http://cloud.smsindiahub.in/vendorsms/pushsms.aspx?APIKey=mk9FmduXikm530fTCyirdg&msisdn=919602964437&sid=AREPLY&msg=Your One Time Password is. 8511. Thanks SMSINDIAHUB&fl=0&gwid=2')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->otp_send()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')

@@ -1,0 +1,18 @@
+CRITICAL - 2023-07-31 17:49:35 --> Undefined array key "user_name"
+in APPPATH\Models\UserModel.php on line 77.
+ 1 APPPATH\Models\UserModel.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_name"', 'C:\\xampp\\htdocs\\app_api\\app\\Models\\UserModel.php', 77)
+ 2 APPPATH\Controllers\Auth.php(37): App\Models\UserModel->save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+CRITICAL - 2023-07-31 17:50:05 --> Undefined array key "user_name"
+in APPPATH\Models\UserModel.php on line 77.
+ 1 APPPATH\Models\UserModel.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_name"', 'C:\\xampp\\htdocs\\app_api\\app\\Models\\UserModel.php', 77)
+ 2 APPPATH\Controllers\Auth.php(37): App\Models\UserModel->save([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')

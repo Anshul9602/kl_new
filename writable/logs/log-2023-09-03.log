@@ -1,0 +1,24 @@
+CRITICAL - 2023-09-03 12:45:49 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\Result.php on line 103.
+ 1 APPPATH\Controllers\Result.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-03 07:45:19 --> Undefined array key "g_id"
+in APPPATH\Controllers\Result.php on line 339.
+ 1 APPPATH\Controllers\Result.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "g_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 339)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-03 07:45:36 --> Undefined array key "g_id"
+in APPPATH\Controllers\Result.php on line 339.
+ 1 APPPATH\Controllers\Result.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "g_id"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 339)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')

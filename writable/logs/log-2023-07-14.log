@@ -1,0 +1,106 @@
+CRITICAL - 2023-07-14 12:39:45 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(102): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-14 12:41:43 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(103): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-14 12:42:50 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(103): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-14 12:42:59 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(103): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-14 12:45:39 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(103): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-14 12:46:10 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(103): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-14 12:47:58 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(103): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-14 12:48:06 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(103): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-14 12:48:37 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Controllers\BaseController.php on line 84.
+ 1 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-14 12:49:00 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Controllers\BaseController.php on line 84.
+ 1 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-14 12:49:21 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(104): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')

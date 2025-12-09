@@ -1,0 +1,62 @@
+CRITICAL - 2023-09-12 10:11:04 --> syntax error, unexpected token "if", expecting "," or ";"
+in APPPATH\Controllers\BaseController.php on line 96.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\BaseController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BaseController')
+ 3 APPPATH\Controllers\Auth.php(13): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BaseController')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(314): include_once('C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Auth.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Auth.php')
+ 6 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 8 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Auth', true)
+ 9 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-12 22:39:20 --> Result does not exist for specified date
+in APPPATH\Models\ResultModel.php on line 201.
+ 1 APPPATH\Controllers\Win.php(29): App\Models\ResultModel->findbydate('09-12-2023')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Win->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Win))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-12 22:50:05 --> Result does not exist for specified date
+in APPPATH\Models\ResultModel.php on line 201.
+ 1 APPPATH\Controllers\Win.php(29): App\Models\ResultModel->findbydate('09-12-2023')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Win->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Win))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-12 22:50:36 --> Result does not exist for specified date
+in APPPATH\Models\ResultModel.php on line 201.
+ 1 APPPATH\Controllers\Win.php(29): App\Models\ResultModel->findbydate('09-12-2023')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Win->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Win))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-12 22:50:54 --> Result does not exist for specified date
+in APPPATH\Models\ResultModel.php on line 201.
+ 1 APPPATH\Controllers\Win.php(29): App\Models\ResultModel->findbydate('09-12-2023')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Win->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Win))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-12 22:53:12 --> Result does not exist for specified date
+in APPPATH\Models\ResultModel.php on line 201.
+ 1 APPPATH\Controllers\Win.php(29): App\Models\ResultModel->findbydate('09-12-2023')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Win->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Win))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-09-12 22:53:22 --> Result does not exist for specified date
+in APPPATH\Models\ResultModel.php on line 201.
+ 1 APPPATH\Controllers\Win.php(29): App\Models\ResultModel->findbydate('09-12-2023')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Win->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Win))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')

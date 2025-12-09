@@ -1,0 +1,290 @@
+ERROR - 2023-08-03 00:43:52 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bi...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\ml_back\app\Models\BidModel.php(182): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...')
+#4 C:\xampp\htdocs\ml_back\app\Controllers\Bid.php(46): App\Models\BidModel->save(Array)
+#5 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Bid->store()
+#6 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+#7 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-03 00:43:52 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bid_table` (`wallet_id`, 
+        `user_id`, 
+        `g_id`, 
+        `gt_id`, 
+        `session`, 
+        `Open_Digits`, 
+        `Close_Digits`, 
+        `Jodi`, 
+        `Open_Panna`, 
+        `Close_Panna`, 
+        `total_amount`,  
+        `status`, 
+        `date`) VALUES (NULL, 
+        \'3\', 
+        \'1\', 
+        \'1\', 
+        \'open\', 
+        \'5\', 
+        \'5\', 
+        \'\', 
+        \'\', 
+        \'\', 
+        \'10\',  
+        \'08/03/2023 12:43 AM\' 
+        )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bid_table` (`wallet_id`, 
+        `user_id`, 
+        `g_id`, 
+        `gt_id`, 
+        `session`, 
+        `Open_Digits`, 
+        `Close_Digits`, 
+        `Jodi`, 
+        `Open_Panna`, 
+        `Close_Panna`, 
+        `total_amount`,  
+        `status`, 
+        `date`) VALUES (NULL, 
+        \'3\', 
+        \'1\', 
+        \'1\', 
+        \'open\', 
+        \'5\', 
+        \'5\', 
+        \'\', 
+        \'\', 
+        \'\', 
+        \'10\',  
+        \'08/03/2023 12:43 AM\' 
+        )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bid_table` (`wallet_id`, 
+        `user_id`, 
+        `g_id`, 
+        `gt_id`, 
+        `session`, 
+        `Open_Digits`, 
+        `Close_Digits`, 
+        `Jodi`, 
+        `Open_Panna`, 
+        `Close_Panna`, 
+        `total_amount`,  
+        `status`, 
+        `date`) VALUES (NULL, 
+        \'3\', 
+        \'1\', 
+        \'1\', 
+        \'open\', 
+        \'5\', 
+        \'5\', 
+        \'\', 
+        \'\', 
+        \'\', 
+        \'10\',  
+        \'08/03/2023 12:43 AM\' 
+        )')
+ 4 APPPATH\Models\BidModel.php(182): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bid_table` (`wallet_id`, 
+        `user_id`, 
+        `g_id`, 
+        `gt_id`, 
+        `session`, 
+        `Open_Digits`, 
+        `Close_Digits`, 
+        `Jodi`, 
+        `Open_Panna`, 
+        `Close_Panna`, 
+        `total_amount`,  
+        `status`, 
+        `date`) VALUES (NULL, 
+        \'3\', 
+        \'1\', 
+        \'1\', 
+        \'open\', 
+        \'5\', 
+        \'5\', 
+        \'\', 
+        \'\', 
+        \'\', 
+        \'10\',  
+        \'08/03/2023 12:43 AM\' 
+        )')
+ 5 APPPATH\Controllers\Bid.php(46): App\Models\BidModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+ERROR - 2023-08-03 00:45:37 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bi...', 0)
+#1 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bi...')
+#2 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bi...')
+#3 C:\xampp\htdocs\ml_back\app\Models\BidModel.php(182): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...')
+#4 C:\xampp\htdocs\ml_back\app\Controllers\Bid.php(46): App\Models\BidModel->save(Array)
+#5 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Bid->store()
+#6 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+#7 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ml_back\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-03 00:45:37 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `bid_table` (`b_id`, 
+        `user_id`, 
+        `g_id`, 
+        `gt_id`, 
+        `session`, 
+        `Open_Digits`, 
+        `Close_Digits`, 
+        `Jodi`, 
+        `Open_Panna`, 
+        `Close_Panna`, 
+        `total_amount`,  
+        `status`, 
+        `date`) VALUES (NULL, 
+        \'3\', 
+        \'1\', 
+        \'1\', 
+        \'open\', 
+        \'5\', 
+        \'5\', 
+        \'\', 
+        \'\', 
+        \'\', 
+        \'10\',  
+        \'08/03/2023 12:45 AM\' 
+        )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bid_table` (`b_id`, 
+        `user_id`, 
+        `g_id`, 
+        `gt_id`, 
+        `session`, 
+        `Open_Digits`, 
+        `Close_Digits`, 
+        `Jodi`, 
+        `Open_Panna`, 
+        `Close_Panna`, 
+        `total_amount`,  
+        `status`, 
+        `date`) VALUES (NULL, 
+        \'3\', 
+        \'1\', 
+        \'1\', 
+        \'open\', 
+        \'5\', 
+        \'5\', 
+        \'\', 
+        \'\', 
+        \'\', 
+        \'10\',  
+        \'08/03/2023 12:45 AM\' 
+        )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bid_table` (`b_id`, 
+        `user_id`, 
+        `g_id`, 
+        `gt_id`, 
+        `session`, 
+        `Open_Digits`, 
+        `Close_Digits`, 
+        `Jodi`, 
+        `Open_Panna`, 
+        `Close_Panna`, 
+        `total_amount`,  
+        `status`, 
+        `date`) VALUES (NULL, 
+        \'3\', 
+        \'1\', 
+        \'1\', 
+        \'open\', 
+        \'5\', 
+        \'5\', 
+        \'\', 
+        \'\', 
+        \'\', 
+        \'10\',  
+        \'08/03/2023 12:45 AM\' 
+        )')
+ 4 APPPATH\Models\BidModel.php(182): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bid_table` (`b_id`, 
+        `user_id`, 
+        `g_id`, 
+        `gt_id`, 
+        `session`, 
+        `Open_Digits`, 
+        `Close_Digits`, 
+        `Jodi`, 
+        `Open_Panna`, 
+        `Close_Panna`, 
+        `total_amount`,  
+        `status`, 
+        `date`) VALUES (NULL, 
+        \'3\', 
+        \'1\', 
+        \'1\', 
+        \'open\', 
+        \'5\', 
+        \'5\', 
+        \'\', 
+        \'\', 
+        \'\', 
+        \'10\',  
+        \'08/03/2023 12:45 AM\' 
+        )')
+ 5 APPPATH\Controllers\Bid.php(46): App\Models\BidModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-03 00:47:40 --> Undefined array key "wallet_id"
+in APPPATH\Controllers\Bid.php on line 54.
+ 1 APPPATH\Controllers\Bid.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "wallet_id"', 'C:\\xampp\\htdocs\\ml_back\\app\\Controllers\\Bid.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-03 01:09:32 --> Cannot use a scalar value as an array
+in APPPATH\Models\CartModel.php on line 268.
+ 1 APPPATH\Controllers\Bid.php(57): App\Models\CartModel->update_am('3', 49970)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-03 01:10:35 --> Cannot use a scalar value as an array
+in APPPATH\Models\CartModel.php on line 270.
+ 1 APPPATH\Controllers\Bid.php(57): App\Models\CartModel->update_am('3', 49950)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-03 01:11:36 --> Cannot use a scalar value as an array
+in APPPATH\Models\CartModel.php on line 272.
+ 1 APPPATH\Controllers\Bid.php(57): App\Models\CartModel->update_am('3', 49940)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-03 01:12:39 --> Cannot use a scalar value as an array
+in APPPATH\Models\CartModel.php on line 270.
+ 1 APPPATH\Controllers\Bid.php(57): App\Models\CartModel->update_am('3', 49930)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-03 01:13:56 --> Cannot use a scalar value as an array
+in APPPATH\Models\CartModel.php on line 270.
+ 1 APPPATH\Controllers\Bid.php(57): App\Models\CartModel->update_am('3', 49900)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ml_back\\public\\index.php')

@@ -1,0 +1,56 @@
+CRITICAL - 2023-07-26 02:19:11 --> Undefined array key "user_number"
+in APPPATH\Controllers\Auth.php on line 31.
+ 1 APPPATH\Controllers\Auth.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_number"', 'C:\\xampp\\htdocs\\app_api\\app\\Controllers\\Auth.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+CRITICAL - 2023-07-26 02:48:51 --> Undefined array key "user_name"
+in APPPATH\Controllers\Auth.php on line 67.
+ 1 APPPATH\Controllers\Auth.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_name"', 'C:\\xampp\\htdocs\\app_api\\app\\Controllers\\Auth.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+CRITICAL - 2023-07-26 02:49:10 --> Undefined array key "user_name"
+in APPPATH\Controllers\Auth.php on line 67.
+ 1 APPPATH\Controllers\Auth.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_name"', 'C:\\xampp\\htdocs\\app_api\\app\\Controllers\\Auth.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+CRITICAL - 2023-07-26 02:49:50 --> Undefined array key "user_name"
+in APPPATH\Controllers\Auth.php on line 67.
+ 1 APPPATH\Controllers\Auth.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_name"', 'C:\\xampp\\htdocs\\app_api\\app\\Controllers\\Auth.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+CRITICAL - 2023-07-26 08:47:13 --> Call to undefined method App\Models\PostModel::PostRequest
+in SYSTEMPATH\Model.php on line 848.
+ 1 APPPATH\Controllers\Users.php(49): CodeIgniter\Model->__call('PostRequest', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+CRITICAL - 2023-07-26 08:47:42 --> Call to undefined method App\Models\PostModel::PostRequest
+in SYSTEMPATH\Model.php on line 848.
+ 1 APPPATH\Controllers\Users.php(49): CodeIgniter\Model->__call('PostRequest', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+CRITICAL - 2023-07-26 03:20:30 --> Call to undefined method App\Models\PostModel::get_post
+in SYSTEMPATH\Model.php on line 848.
+ 1 APPPATH\Controllers\Users.php(21): CodeIgniter\Model->__call('get_post', [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')

@@ -1,0 +1,536 @@
+CRITICAL - 2023-07-15 08:53:07 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(104): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 08:53:42 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(104): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 08:53:44 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(104): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 08:54:45 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(104): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(65): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 08:58:59 --> Class "Config\UserRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 656.
+ 1 SYSTEMPATH\Validation\Validation.php(130): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 APPPATH\Controllers\BaseController.php(104): CodeIgniter\Validation\Validation->run([...])
+ 3 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:17:35 --> Array to string conversion
+in APPPATH\Controllers\Auth.php on line 65.
+ 1 APPPATH\Controllers\Auth.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:18:07 --> Array to string conversion
+in APPPATH\Controllers\Auth.php on line 65.
+ 1 APPPATH\Controllers\Auth.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:18:08 --> Array to string conversion
+in APPPATH\Controllers\Auth.php on line 65.
+ 1 APPPATH\Controllers\Auth.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:22:21 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 84.
+ 1 APPPATH\Controllers\BaseController.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\BaseController.php', 84)
+ 2 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:22:50 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 85.
+ 1 APPPATH\Controllers\BaseController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\BaseController.php', 85)
+ 2 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:23:04 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 85.
+ 1 APPPATH\Controllers\BaseController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\BaseController.php', 85)
+ 2 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:23:38 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 85.
+ 1 APPPATH\Controllers\BaseController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\BaseController.php', 85)
+ 2 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:27:28 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 85.
+ 1 APPPATH\Controllers\BaseController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\BaseController.php', 85)
+ 2 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:28:12 --> CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(): Argument #1 ($rule) must be of type ?string, array given, called in C:\xampp\htdocs\myfirst\app\Controllers\BaseController.php on line 94
+in SYSTEMPATH\Validation\Exceptions\ValidationException.php on line 18.
+ 1 APPPATH\Controllers\BaseController.php(94): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound([...])
+ 2 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:28:44 --> CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(): Argument #1 ($rule) must be of type ?string, array given, called in C:\xampp\htdocs\myfirst\app\Controllers\BaseController.php on line 94
+in SYSTEMPATH\Validation\Exceptions\ValidationException.php on line 18.
+ 1 APPPATH\Controllers\BaseController.php(94): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound([...])
+ 2 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:30:11 --> Array to string conversion
+in APPPATH\Controllers\BaseController.php on line 93.
+ 1 APPPATH\Controllers\BaseController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\BaseController.php', 93)
+ 2 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:48:00 --> config(): Argument #2 ($getShared) must be of type bool, array given, called in C:\xampp\htdocs\myfirst\app\Controllers\BaseController.php on line 89
+in SYSTEMPATH\Common.php on line 214.
+ 1 APPPATH\Controllers\BaseController.php(89): config('Validation/UserRules', [...])
+ 2 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:49:05 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\myfirst\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'kzUf4sxss4AeG5uHkNZAqT1Nyi1zVfpz')
+ 2 APPPATH\Controllers\Auth.php(92): getSignedJWTForUser('ash')
+ 3 APPPATH\Controllers\Auth.php(70): App\Controllers\Auth->getJWTForUser('ash')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:49:10 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\myfirst\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'kzUf4sxss4AeG5uHkNZAqT1Nyi1zVfpz')
+ 2 APPPATH\Controllers\Auth.php(92): getSignedJWTForUser('ash')
+ 3 APPPATH\Controllers\Auth.php(70): App\Controllers\Auth->getJWTForUser('ash')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:50:49 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\myfirst\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'kzUf4sxss4AeG5uHkNZAqT1Nyi1zVfpz')
+ 2 APPPATH\Controllers\Auth.php(92): getSignedJWTForUser('ash')
+ 3 APPPATH\Controllers\Auth.php(70): App\Controllers\Auth->getJWTForUser('ash')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:51:27 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\myfirst\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'kzUf4sxss4AeG5uHkNZAqT1Nyi1zVfpz')
+ 2 APPPATH\Controllers\Auth.php(93): getSignedJWTForUser('ash')
+ 3 APPPATH\Controllers\Auth.php(70): App\Controllers\Auth->getJWTForUser('ash')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:52:40 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\myfirst\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'kzUf4sxss4AeG5uHkNZAqT1Nyi1zVfpz')
+ 2 APPPATH\Controllers\Auth.php(93): getSignedJWTForUser('ash')
+ 3 APPPATH\Controllers\Auth.php(68): App\Controllers\Auth->getJWTForUser('ash')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:55:05 --> config(): Argument #2 ($getShared) must be of type bool, array given, called in C:\xampp\htdocs\myfirst\app\Controllers\BaseController.php on line 88
+in SYSTEMPATH\Common.php on line 214.
+ 1 APPPATH\Controllers\BaseController.php(88): config('Validation/UserRules', [...])
+ 2 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 09:56:00 --> config(): Argument #2 ($getShared) must be of type bool, array given, called in C:\xampp\htdocs\myfirst\app\Controllers\BaseController.php on line 88
+in SYSTEMPATH\Common.php on line 214.
+ 1 APPPATH\Controllers\BaseController.php(88): config('Validation/UserRules', [...])
+ 2 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 10:01:20 --> CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound(): Argument #1 ($rule) must be of type ?string, array given, called in C:\xampp\htdocs\myfirst\app\Controllers\BaseController.php on line 94
+in SYSTEMPATH\Validation\Exceptions\ValidationException.php on line 18.
+ 1 APPPATH\Controllers\BaseController.php(94): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound([...])
+ 2 APPPATH\Controllers\Auth.php(66): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 10:05:43 --> Object of class Config\Validation could not be converted to string
+in APPPATH\Controllers\BaseController.php on line 90.
+ 1 APPPATH\Controllers\Auth.php(67): App\Controllers\BaseController->validateRequest([...], [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 10:11:06 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\myfirst\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'kzUf4sxss4AeG5uHkNZAqT1Nyi1zVfpz')
+ 2 APPPATH\Controllers\Auth.php(94): getSignedJWTForUser('ash')
+ 3 APPPATH\Controllers\Auth.php(69): App\Controllers\Auth->getJWTForUser('ash')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 10:13:51 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\myfirst\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'kzUf4sxss4AeG5uHkNZAqT1Nyi1zVfpz')
+ 2 APPPATH\Controllers\Auth.php(95): getSignedJWTForUser('ash')
+ 3 APPPATH\Controllers\Auth.php(69): App\Controllers\Auth->getJWTForUser('ash')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 10:14:34 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\myfirst\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'kzUf4sxss4AeG5uHkNZAqT1Nyi1zVfpz')
+ 2 APPPATH\Controllers\Auth.php(95): getSignedJWTForUser('ash')
+ 3 APPPATH\Controllers\Auth.php(69): App\Controllers\Auth->getJWTForUser('ash')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 10:15:03 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\myfirst\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'kzUf4sxss4AeG5uHkNZAqT1Nyi1zVfpz')
+ 2 APPPATH\Controllers\Auth.php(95): getSignedJWTForUser('ash')
+ 3 APPPATH\Controllers\Auth.php(69): App\Controllers\Auth->getJWTForUser('ash')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 10:19:46 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\myfirst\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'kzUf4sxss4AeG5uHkNZAqT1Nyi1zVfpz')
+ 2 APPPATH\Controllers\Auth.php(95): getSignedJWTForUser('ash')
+ 3 APPPATH\Controllers\Auth.php(69): App\Controllers\Auth->getJWTForUser('ash')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 10:26:15 --> Firebase\JWT\JWT::encode(): Argument #3 ($alg) must be of type string, array given, called in C:\xampp\htdocs\myfirst\app\Helpers\jwt_helper.php on line 35
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'kzUf4sxss4AeG5uHkNZAqT1Nyi1zVfpz', [...])
+ 2 APPPATH\Controllers\Auth.php(95): getSignedJWTForUser('ash')
+ 3 APPPATH\Controllers\Auth.php(69): App\Controllers\Auth->getJWTForUser('ash')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 10:53:38 --> Array to string conversion
+in APPPATH\Controllers\Auth.php on line 71.
+ 1 APPPATH\Controllers\Auth.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:09:47 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Auth.php on line 33.
+ 1 APPPATH\Controllers\Auth.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:10:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Auth.php on line 33.
+ 1 APPPATH\Controllers\Auth.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:12:27 --> Undefined variable $data
+in APPPATH\Controllers\Auth.php on line 29.
+ 1 APPPATH\Controllers\Auth.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:12:47 --> Undefined variable $data
+in APPPATH\Controllers\Auth.php on line 33.
+ 1 APPPATH\Controllers\Auth.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:13:46 --> Array to string conversion
+in APPPATH\Controllers\Auth.php on line 21.
+ 1 APPPATH\Controllers\Auth.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:14:20 --> Undefined array key "user_name"
+in APPPATH\Controllers\Auth.php on line 21.
+ 1 APPPATH\Controllers\Auth.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_name"', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:14:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Auth.php on line 35.
+ 1 APPPATH\Controllers\Auth.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:24:25 --> Call to undefined method App\Models\UserModel::beforeInsert
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Auth.php(31): CodeIgniter\Model->__call('beforeInsert', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:24:56 --> Call to undefined method App\Models\UserModel::beforeInsert
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Auth.php(31): CodeIgniter\Model->__call('beforeInsert', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:24:58 --> Call to undefined method App\Models\UserModel::beforeInsert
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Auth.php(31): CodeIgniter\Model->__call('beforeInsert', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:29:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Auth.php on line 30.
+ 1 APPPATH\Controllers\Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:29:38 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Auth.php on line 30.
+ 1 APPPATH\Controllers\Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:30:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Auth.php on line 30.
+ 1 APPPATH\Controllers\Auth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:31:27 --> Array to string conversion
+in APPPATH\Controllers\Auth.php on line 33.
+ 1 APPPATH\Controllers\Auth.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:31:43 --> Array to string conversion
+in APPPATH\Controllers\Auth.php on line 33.
+ 1 APPPATH\Controllers\Auth.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\myfirst\\app\\Controllers\\Auth.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:51:55 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(54): App\Models\UserModel->findUserByUserName('anshul1')
+ 2 APPPATH\Controllers\Auth.php(36): App\Controllers\Auth->validuser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:53:07 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(53): App\Models\UserModel->findUserByUserName('anshul1')
+ 2 APPPATH\Controllers\Auth.php(36): App\Controllers\Auth->validuser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:53:17 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(53): App\Models\UserModel->findUserByUserName('anshu')
+ 2 APPPATH\Controllers\Auth.php(36): App\Controllers\Auth->validuser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:55:10 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(53): App\Models\UserModel->findUserByUserName('anshu')
+ 2 APPPATH\Controllers\Auth.php(36): App\Controllers\Auth->validuser([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:57:44 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(36): App\Models\UserModel->findUserByUserName('anshul1')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:58:05 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(36): App\Models\UserModel->findUserByUserName('anshul1')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:58:24 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(36): App\Models\UserModel->findUserByUserName('anshul1')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 12:59:47 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(36): App\Models\UserModel->findUserByUserName('anshu')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 13:01:48 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(36): App\Models\UserModel->findUserByUserName('anshu')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 13:03:39 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(36): App\Models\UserModel->findUserByUserName('anshu')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 13:07:50 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(36): App\Models\UserModel->findUserByUserName('anshu')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 13:07:53 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(36): App\Models\UserModel->findUserByUserName('anshu')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-15 13:48:12 --> User does not exist for specified user name
+in APPPATH\Models\UserModel.php on line 53.
+ 1 APPPATH\Controllers\Auth.php(37): App\Models\UserModel->findUserByUserName('anshu1122')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')

@@ -1,0 +1,98 @@
+CRITICAL - 2023-08-14 05:25:38 --> Undefined array key "number"
+in APPPATH\Models\BidModel.php on line 206.
+ 1 APPPATH\Models\BidModel.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "number"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Models\\BidModel.php', 206)
+ 2 APPPATH\Controllers\Bid.php(36): App\Models\BidModel->save6([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-14 05:26:24 --> Undefined array key "number"
+in APPPATH\Models\BidModel.php on line 206.
+ 1 APPPATH\Models\BidModel.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "number"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Models\\BidModel.php', 206)
+ 2 APPPATH\Controllers\Bid.php(36): App\Models\BidModel->save6([...])
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+ERROR - 2023-08-14 10:57:13 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'apis', 3306, '', 0)
+#1 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\com\Desktop\ml_back\app\Models\BidModel.php(233): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...')
+#4 C:\Users\com\Desktop\ml_back\app\Controllers\Bid.php(36): App\Models\BidModel->save6(Array)
+#5 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Bid->store()
+#6 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+#7 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\com\Desktop\ml_back\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\De...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\com\Desktop\ml_back\app\Models\BidModel.php(233): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...')
+#3 C:\Users\com\Desktop\ml_back\app\Controllers\Bid.php(36): App\Models\BidModel->save6(Array)
+#4 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Bid->store()
+#5 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+#6 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\com\Desktop\ml_back\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\De...')
+#9 {main}
+CRITICAL - 2023-08-14 10:57:13 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\BidModel.php(233): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bid_table` (`b_id`, 
+        `user_id`,`g_id`, `gt_id`, `session`, `Open_Digits`,`Close_Digits`,`Jodi`,`Open_Panna`,`Close_Panna`, 
+        `total_amount`,`date`) VALUES (NULL,\'1\',\'1\',\'6\',\'open\',\'\',\'5\', 
+        \'\',\'023\',\'\',\'10\',\'08-14-2023 10:57 AM\')')
+ 3 APPPATH\Controllers\Bid.php(36): App\Models\BidModel->save6([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+ERROR - 2023-08-14 10:57:44 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'apis', 3306, '', 0)
+#1 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\com\Desktop\ml_back\app\Models\BidModel.php(233): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...')
+#4 C:\Users\com\Desktop\ml_back\app\Controllers\Bid.php(36): App\Models\BidModel->save6(Array)
+#5 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Bid->store()
+#6 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+#7 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\com\Desktop\ml_back\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\De...')
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\com\Desktop\ml_back\app\Models\BidModel.php(233): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bi...')
+#3 C:\Users\com\Desktop\ml_back\app\Controllers\Bid.php(36): App\Models\BidModel->save6(Array)
+#4 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Bid->store()
+#5 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+#6 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\com\Desktop\ml_back\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\De...')
+#9 {main}
+CRITICAL - 2023-08-14 10:57:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\BidModel.php(233): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bid_table` (`b_id`, 
+        `user_id`,`g_id`, `gt_id`, `session`, `Open_Digits`,`Close_Digits`,`Jodi`,`Open_Panna`,`Close_Panna`, 
+        `total_amount`,`date`) VALUES (NULL,\'1\',\'1\',\'6\',\'open\',\'\',\'5\', 
+        \'\',\'023\',\'\',\'10\',\'08-14-2023 10:57 AM\')')
+ 3 APPPATH\Controllers\Bid.php(36): App\Models\BidModel->save6([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->store()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')

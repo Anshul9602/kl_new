@@ -1,0 +1,239 @@
+ERROR - 2023-07-18 06:23:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `sg_posts` WHERE published = 0' at line 1 in C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT FROM `sg...', 0)
+#1 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT FROM `sg...')
+#2 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT FROM `sg...')
+#3 C:\xampp\htdocs\myfirst\app\Models\PostModel.php(159): CodeIgniter\Database\BaseConnection->query('SELECT FROM `sg...')
+#4 C:\xampp\htdocs\myfirst\app\Controllers\Users.php(166): App\Models\PostModel->get_drafts()
+#5 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+#6 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myfirst\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-18 06:23:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `sg_posts` WHERE published = 0' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT FROM `sg_posts` WHERE published = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT FROM `sg_posts` WHERE published = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT FROM `sg_posts` WHERE published = 0')
+ 4 APPPATH\Models\PostModel.php(159): CodeIgniter\Database\BaseConnection->query('SELECT FROM `sg_posts` WHERE published = 0')
+ 5 APPPATH\Controllers\Users.php(166): App\Models\PostModel->get_drafts()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+ERROR - 2023-07-18 06:24:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `sg_posts` WHERE published = 0' at line 1 in C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT FROM `sg...', 0)
+#1 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT FROM `sg...')
+#2 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT FROM `sg...')
+#3 C:\xampp\htdocs\myfirst\app\Models\PostModel.php(159): CodeIgniter\Database\BaseConnection->query('SELECT FROM `sg...')
+#4 C:\xampp\htdocs\myfirst\app\Controllers\Users.php(166): App\Models\PostModel->get_drafts(0)
+#5 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+#6 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myfirst\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-18 06:24:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `sg_posts` WHERE published = 0' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT FROM `sg_posts` WHERE published = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT FROM `sg_posts` WHERE published = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT FROM `sg_posts` WHERE published = 0')
+ 4 APPPATH\Models\PostModel.php(159): CodeIgniter\Database\BaseConnection->query('SELECT FROM `sg_posts` WHERE published = 0')
+ 5 APPPATH\Controllers\Users.php(166): App\Models\PostModel->get_drafts(0)
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+ERROR - 2023-07-18 06:25:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `sg_posts` WHERE published = 0' at line 1 in C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT FROM `sg...', 0)
+#1 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT FROM `sg...')
+#2 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT FROM `sg...')
+#3 C:\xampp\htdocs\myfirst\app\Models\PostModel.php(159): CodeIgniter\Database\BaseConnection->query('SELECT FROM `sg...')
+#4 C:\xampp\htdocs\myfirst\app\Controllers\Users.php(167): App\Models\PostModel->get_drafts(0)
+#5 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+#6 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myfirst\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-18 06:25:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `sg_posts` WHERE published = 0' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT FROM `sg_posts` WHERE published = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT FROM `sg_posts` WHERE published = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT FROM `sg_posts` WHERE published = 0')
+ 4 APPPATH\Models\PostModel.php(159): CodeIgniter\Database\BaseConnection->query('SELECT FROM `sg_posts` WHERE published = 0')
+ 5 APPPATH\Controllers\Users.php(167): App\Models\PostModel->get_drafts(0)
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+ERROR - 2023-07-18 06:25:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sg_posts WHERE published = 0' at line 1 in C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT FROM sg_...', 0)
+#1 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT FROM sg_...')
+#2 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT FROM sg_...')
+#3 C:\xampp\htdocs\myfirst\app\Models\PostModel.php(159): CodeIgniter\Database\BaseConnection->query('SELECT FROM sg_...')
+#4 C:\xampp\htdocs\myfirst\app\Controllers\Users.php(167): App\Models\PostModel->get_drafts(0)
+#5 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+#6 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myfirst\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-18 06:25:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM sg_posts WHERE published = 0' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT FROM sg_posts WHERE published = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT FROM sg_posts WHERE published = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT FROM sg_posts WHERE published = 0')
+ 4 APPPATH\Models\PostModel.php(159): CodeIgniter\Database\BaseConnection->query('SELECT FROM sg_posts WHERE published = 0')
+ 5 APPPATH\Controllers\Users.php(167): App\Models\PostModel->get_drafts(0)
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-18 06:25:38 --> App\Models\PostModel::get_drafts(): Return value must be of type bool, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\PostModel.php on line 163.
+ 1 APPPATH\Controllers\Users.php(167): App\Models\PostModel->get_drafts(0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-18 06:27:56 --> App\Models\PostModel::get_drafts(): Return value must be of type bool, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\PostModel.php on line 164.
+ 1 APPPATH\Controllers\Users.php(167): App\Models\PostModel->get_drafts(0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-18 06:29:03 --> App\Models\PostModel::get_drafts(): Return value must be of type bool, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\PostModel.php on line 164.
+ 1 APPPATH\Controllers\Users.php(167): App\Models\PostModel->get_drafts(0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-18 06:29:30 --> App\Models\PostModel::get_drafts(): Return value must be of type bool, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\PostModel.php on line 164.
+ 1 APPPATH\Controllers\Users.php(167): App\Models\PostModel->get_drafts(0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-18 06:30:03 --> App\Models\PostModel::get_drafts(): Return value must be of type bool, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\PostModel.php on line 164.
+ 1 APPPATH\Controllers\Users.php(167): App\Models\PostModel->get_drafts(0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-18 06:30:41 --> App\Models\PostModel::get_drafts(): Return value must be of type bool, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\PostModel.php on line 164.
+ 1 APPPATH\Controllers\Users.php(167): App\Models\PostModel->get_drafts(0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-18 06:31:58 --> App\Models\PostModel::get_drafts(): Return value must be of type bool, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\PostModel.php on line 163.
+ 1 APPPATH\Controllers\Users.php(167): App\Models\PostModel->get_drafts(0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+CRITICAL - 2023-07-18 06:32:07 --> App\Models\PostModel::get_drafts(): Return value must be of type bool, CodeIgniter\Database\MySQLi\Result returned
+in APPPATH\Models\PostModel.php on line 163.
+ 1 APPPATH\Controllers\Users.php(167): App\Models\PostModel->get_drafts(0)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->get_drafts()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+ERROR - 2023-07-18 10:51:48 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sg...', 0)
+#1 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sg...')
+#2 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sg...')
+#3 C:\xampp\htdocs\myfirst\app\Models\PostModel.php(110): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sg...')
+#4 C:\xampp\htdocs\myfirst\app\Controllers\Users.php(54): App\Models\PostModel->save(Array)
+#5 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Users->store()
+#6 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myfirst\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-18 10:51:48 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sg_activity_log` (`activity_log_id`, `user_id`,`username`, `dp_url`, `activity_name`, `activity_description`,  `post_id`, `timestamp`) VALUES (NULL, \'1\', \'anshul\', \'fd\', \'Posted\', \'test\', \'Jul/18/2023 10:51 AM\', \'1\',\'Jul/18/2023 10:51 AM\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sg_activity_log` (`activity_log_id`, `user_id`,`username`, `dp_url`, `activity_name`, `activity_description`,  `post_id`, `timestamp`) VALUES (NULL, \'1\', \'anshul\', \'fd\', \'Posted\', \'test\', \'Jul/18/2023 10:51 AM\', \'1\',\'Jul/18/2023 10:51 AM\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sg_activity_log` (`activity_log_id`, `user_id`,`username`, `dp_url`, `activity_name`, `activity_description`,  `post_id`, `timestamp`) VALUES (NULL, \'1\', \'anshul\', \'fd\', \'Posted\', \'test\', \'Jul/18/2023 10:51 AM\', \'1\',\'Jul/18/2023 10:51 AM\')')
+ 4 APPPATH\Models\PostModel.php(110): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sg_activity_log` (`activity_log_id`, `user_id`,`username`, `dp_url`, `activity_name`, `activity_description`,  `post_id`, `timestamp`) VALUES (NULL, \'1\', \'anshul\', \'fd\', \'Posted\', \'test\', \'Jul/18/2023 10:51 AM\', \'1\',\'Jul/18/2023 10:51 AM\')')
+ 5 APPPATH\Controllers\Users.php(54): App\Models\PostModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+ERROR - 2023-07-18 10:52:30 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sg...', 0)
+#1 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sg...')
+#2 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sg...')
+#3 C:\xampp\htdocs\myfirst\app\Models\PostModel.php(110): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sg...')
+#4 C:\xampp\htdocs\myfirst\app\Controllers\Users.php(54): App\Models\PostModel->save(Array)
+#5 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Users->store()
+#6 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myfirst\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-18 10:52:30 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sg_activity_log` (`activity_log_id`, `user_id`,`username`, `dp_url`, `activity_name`, `activity_description`,  `post_id`, `timestamp`) VALUES (NULL, \'1\', \'anshul\', \'fd\', \'Posted\', \'test\', \'Jul/18/2023 10:52 AM\', \'1\',\'Jul/18/2023 10:52 AM\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sg_activity_log` (`activity_log_id`, `user_id`,`username`, `dp_url`, `activity_name`, `activity_description`,  `post_id`, `timestamp`) VALUES (NULL, \'1\', \'anshul\', \'fd\', \'Posted\', \'test\', \'Jul/18/2023 10:52 AM\', \'1\',\'Jul/18/2023 10:52 AM\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sg_activity_log` (`activity_log_id`, `user_id`,`username`, `dp_url`, `activity_name`, `activity_description`,  `post_id`, `timestamp`) VALUES (NULL, \'1\', \'anshul\', \'fd\', \'Posted\', \'test\', \'Jul/18/2023 10:52 AM\', \'1\',\'Jul/18/2023 10:52 AM\')')
+ 4 APPPATH\Models\PostModel.php(110): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sg_activity_log` (`activity_log_id`, `user_id`,`username`, `dp_url`, `activity_name`, `activity_description`,  `post_id`, `timestamp`) VALUES (NULL, \'1\', \'anshul\', \'fd\', \'Posted\', \'test\', \'Jul/18/2023 10:52 AM\', \'1\',\'Jul/18/2023 10:52 AM\')')
+ 5 APPPATH\Controllers\Users.php(54): App\Models\PostModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')
+ERROR - 2023-07-18 10:52:33 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sg...', 0)
+#1 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sg...')
+#2 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sg...')
+#3 C:\xampp\htdocs\myfirst\app\Models\PostModel.php(110): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sg...')
+#4 C:\xampp\htdocs\myfirst\app\Controllers\Users.php(54): App\Models\PostModel->save(Array)
+#5 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Users->store()
+#6 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myfirst\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myfirst\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-18 10:52:33 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sg_activity_log` (`activity_log_id`, `user_id`,`username`, `dp_url`, `activity_name`, `activity_description`,  `post_id`, `timestamp`) VALUES (NULL, \'1\', \'anshul\', \'fd\', \'Posted\', \'test\', \'Jul/18/2023 10:52 AM\', \'1\',\'Jul/18/2023 10:52 AM\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sg_activity_log` (`activity_log_id`, `user_id`,`username`, `dp_url`, `activity_name`, `activity_description`,  `post_id`, `timestamp`) VALUES (NULL, \'1\', \'anshul\', \'fd\', \'Posted\', \'test\', \'Jul/18/2023 10:52 AM\', \'1\',\'Jul/18/2023 10:52 AM\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sg_activity_log` (`activity_log_id`, `user_id`,`username`, `dp_url`, `activity_name`, `activity_description`,  `post_id`, `timestamp`) VALUES (NULL, \'1\', \'anshul\', \'fd\', \'Posted\', \'test\', \'Jul/18/2023 10:52 AM\', \'1\',\'Jul/18/2023 10:52 AM\')')
+ 4 APPPATH\Models\PostModel.php(110): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sg_activity_log` (`activity_log_id`, `user_id`,`username`, `dp_url`, `activity_name`, `activity_description`,  `post_id`, `timestamp`) VALUES (NULL, \'1\', \'anshul\', \'fd\', \'Posted\', \'test\', \'Jul/18/2023 10:52 AM\', \'1\',\'Jul/18/2023 10:52 AM\')')
+ 5 APPPATH\Controllers\Users.php(54): App\Models\PostModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Users->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\myfirst\\public\\index.php')

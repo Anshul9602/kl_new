@@ -1,0 +1,52 @@
+CRITICAL - 2023-08-22 05:57:25 --> file_get_contents(http://...@123&amp;msisdn=9602964437&amp;sid=SENDER_ID&amp;msg=Your OTP is: 6345&amp;fl=0): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+in APPPATH\Controllers\Basic.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://...@123&amp;msisdn=9602964437&amp;sid=SENDER_ID&amp;msg=Your OTP is: 6345&amp;fl=0): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Basic.php', 67)
+ 2 APPPATH\Controllers\Basic.php(67): file_get_contents('http://cloud.smsindiahub.in/vendorsms/pushsms.aspx?user=Deshrajmeena&password=Deshraj@123&msisdn=9602964437&sid=SENDER_ID&msg=Your OTP is: 6345&fl=0')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->otp_send()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-22 06:01:26 --> file_get_contents(http://...@123&amp;msisdn=9602964437&amp;sid=1&amp;msg=Your OTP is: 9885&amp;fl=0): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+in APPPATH\Controllers\Basic.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://...@123&amp;msisdn=9602964437&amp;sid=1&amp;msg=Your OTP is: 9885&amp;fl=0): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Basic.php', 72)
+ 2 APPPATH\Controllers\Basic.php(72): file_get_contents('http://cloud.smsindiahub.in/vendorsms/pushsms.aspx?user=Deshrajmeena&password=Deshraj@123&msisdn=9602964437&sid=1&msg=Your OTP is: 9885&fl=0')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->otp_send()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-22 06:03:50 --> file_get_contents(http://...@123&amp;msisdn=9602964437&amp;sid=1&amp;msg=Your OTP is: 7142&amp;fl=0): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+in APPPATH\Controllers\Basic.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://...@123&amp;msisdn=9602964437&amp;sid=1&amp;msg=Your OTP is: 7142&amp;fl=0): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Basic.php', 72)
+ 2 APPPATH\Controllers\Basic.php(72): file_get_contents('http://cloud.smsindiahub.in/vendorsms/pushsms.aspx?user=Deshrajmeena&password=Deshraj@123&msisdn=9602964437&sid=1&msg=Your OTP is: 7142&fl=0')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->otp_send()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-22 06:06:33 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Basic.php on line 95.
+ 1 APPPATH\Controllers\Basic.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Basic.php', 95)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->otp_send()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-22 06:10:20 --> file_get_contents(http://cloud.smsindiahub.in/api/mt/SendSMS?user=demo&amp;password=demo123&amp;senderid=WEBSMS&amp;channel=Promo&amp;DCS=0&amp;flashsms=0&amp;number=9602964437&amp;text=Your OTP is: 1763&amp;DLTTemplateId=##&amp;route=##&amp;PEId=##): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+in APPPATH\Controllers\Basic.php on line 70.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://cloud.smsindiahub.in/api/mt/SendSMS?user=demo&amp;password=demo123&amp;senderid=WEBSMS&amp;channel=Promo&amp;DCS=0&amp;flashsms=0&amp;number=9602964437&amp;text=Your OTP is: 1763&amp;DLTTemplateId=##&amp;route=##&amp;PEId=##): Failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Basic.php', 70)
+ 2 APPPATH\Controllers\Basic.php(70): file_get_contents('http://cloud.smsindiahub.in/api/mt/SendSMS?user=demo&password=demo123&senderid=WEBSMS&channel=Promo&DCS=0&flashsms=0&number=9602964437&text=Your OTP is: 1763&DLTTemplateId=##&route=##&PEId=##')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Basic->otp_send()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Basic))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')

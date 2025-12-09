@@ -1,0 +1,8 @@
+CRITICAL - 2023-09-08 01:24:27 --> Undefined array key "Close_Panna"
+in APPPATH\Controllers\Result.php on line 124.
+ 1 APPPATH\Controllers\Result.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Close_Panna"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 124)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->sindex2()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')

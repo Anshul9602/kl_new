@@ -1,0 +1,158 @@
+CRITICAL - 2023-07-28 13:28:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Auth.php on line 58.
+ 1 APPPATH\Controllers\Auth.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\app_api\\app\\Controllers\\Auth.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+ERROR - 2023-07-28 19:01:04 --> mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\app_api\app\Models\UserModel.php(100): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...')
+#4 C:\xampp\htdocs\app_api\app\Controllers\Auth.php(65): App\Models\UserModel->save1(Array)
+#5 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+#6 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-28 19:01:04 --> Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$d2BLSLJ4M.tLxy5TLc5UY.juJN/YaP2Nlr1q9ZUUiytwhSntMvJqa\',\'07/28/2023 07:01 PM\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$d2BLSLJ4M.tLxy5TLc5UY.juJN/YaP2Nlr1q9ZUUiytwhSntMvJqa\',\'07/28/2023 07:01 PM\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$d2BLSLJ4M.tLxy5TLc5UY.juJN/YaP2Nlr1q9ZUUiytwhSntMvJqa\',\'07/28/2023 07:01 PM\')')
+ 4 APPPATH\Models\UserModel.php(100): CodeIgniter\Database\BaseConnection->query('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$d2BLSLJ4M.tLxy5TLc5UY.juJN/YaP2Nlr1q9ZUUiytwhSntMvJqa\',\'07/28/2023 07:01 PM\')')
+ 5 APPPATH\Controllers\Auth.php(65): App\Models\UserModel->save1([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+ERROR - 2023-07-28 19:01:18 --> mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\app_api\app\Models\UserModel.php(100): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...')
+#4 C:\xampp\htdocs\app_api\app\Controllers\Auth.php(65): App\Models\UserModel->save1(Array)
+#5 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+#6 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-28 19:01:18 --> Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$q8KuysXM2/srtDP9BSofqOfJ43TtxrJnyq/AfLu3ke0z3tO8Ad68a\',\'07/28/2023 07:01 PM\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$q8KuysXM2/srtDP9BSofqOfJ43TtxrJnyq/AfLu3ke0z3tO8Ad68a\',\'07/28/2023 07:01 PM\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$q8KuysXM2/srtDP9BSofqOfJ43TtxrJnyq/AfLu3ke0z3tO8Ad68a\',\'07/28/2023 07:01 PM\')')
+ 4 APPPATH\Models\UserModel.php(100): CodeIgniter\Database\BaseConnection->query('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$q8KuysXM2/srtDP9BSofqOfJ43TtxrJnyq/AfLu3ke0z3tO8Ad68a\',\'07/28/2023 07:01 PM\')')
+ 5 APPPATH\Controllers\Auth.php(65): App\Models\UserModel->save1([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+ERROR - 2023-07-28 19:01:33 --> mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\app_api\app\Models\UserModel.php(100): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...')
+#4 C:\xampp\htdocs\app_api\app\Controllers\Auth.php(65): App\Models\UserModel->save1(Array)
+#5 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+#6 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-28 19:01:33 --> Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$TjfiSFTc60ghvbcOYzz1J.I7ntFDvZhtDBFqhw/BBjtG/XuEkshZK\',\'07/28/2023 07:01 PM\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$TjfiSFTc60ghvbcOYzz1J.I7ntFDvZhtDBFqhw/BBjtG/XuEkshZK\',\'07/28/2023 07:01 PM\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$TjfiSFTc60ghvbcOYzz1J.I7ntFDvZhtDBFqhw/BBjtG/XuEkshZK\',\'07/28/2023 07:01 PM\')')
+ 4 APPPATH\Models\UserModel.php(100): CodeIgniter\Database\BaseConnection->query('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$TjfiSFTc60ghvbcOYzz1J.I7ntFDvZhtDBFqhw/BBjtG/XuEkshZK\',\'07/28/2023 07:01 PM\')')
+ 5 APPPATH\Controllers\Auth.php(65): App\Models\UserModel->save1([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+ERROR - 2023-07-28 19:01:46 --> mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\app_api\app\Models\UserModel.php(100): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...')
+#4 C:\xampp\htdocs\app_api\app\Controllers\Auth.php(65): App\Models\UserModel->save1(Array)
+#5 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+#6 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-28 19:01:46 --> Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$nOoMOjPPA2D29w/xiSy3Be07UbN7ShU7fcZiJgLsETQsz1A0LWaBq\',\'07/28/2023 07:01 PM\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$nOoMOjPPA2D29w/xiSy3Be07UbN7ShU7fcZiJgLsETQsz1A0LWaBq\',\'07/28/2023 07:01 PM\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$nOoMOjPPA2D29w/xiSy3Be07UbN7ShU7fcZiJgLsETQsz1A0LWaBq\',\'07/28/2023 07:01 PM\')')
+ 4 APPPATH\Models\UserModel.php(100): CodeIgniter\Database\BaseConnection->query('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$nOoMOjPPA2D29w/xiSy3Be07UbN7ShU7fcZiJgLsETQsz1A0LWaBq\',\'07/28/2023 07:01 PM\')')
+ 5 APPPATH\Controllers\Auth.php(65): App\Models\UserModel->save1([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+ERROR - 2023-07-28 19:02:11 --> mysqli_sql_exception: Unknown column 'user_id' in 'field list' in C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\app_api\app\Models\UserModel.php(101): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...')
+#4 C:\xampp\htdocs\app_api\app\Controllers\Auth.php(65): App\Models\UserModel->save1(Array)
+#5 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+#6 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-28 19:02:11 --> Unknown column 'user_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$cgSUhSuguv/Ab5vHLCId9efQxwx0SvT2ICjJLAQCScP1nxaixCC.K\',\'07/28/2023 07:02 PM\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$cgSUhSuguv/Ab5vHLCId9efQxwx0SvT2ICjJLAQCScP1nxaixCC.K\',\'07/28/2023 07:02 PM\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$cgSUhSuguv/Ab5vHLCId9efQxwx0SvT2ICjJLAQCScP1nxaixCC.K\',\'07/28/2023 07:02 PM\')')
+ 4 APPPATH\Models\UserModel.php(101): CodeIgniter\Database\BaseConnection->query('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$cgSUhSuguv/Ab5vHLCId9efQxwx0SvT2ICjJLAQCScP1nxaixCC.K\',\'07/28/2023 07:02 PM\')')
+ 5 APPPATH\Controllers\Auth.php(65): App\Models\UserModel->save1([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')
+ERROR - 2023-07-28 19:03:02 --> mysqli_sql_exception: Unknown column 'pin' in 'field list' in C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ad...', 0)
+#1 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ad...')
+#2 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ad...')
+#3 C:\xampp\htdocs\app_api\app\Models\UserModel.php(101): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ad...')
+#4 C:\xampp\htdocs\app_api\app\Controllers\Auth.php(65): App\Models\UserModel->save1(Array)
+#5 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+#6 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_api\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_api\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-28 19:03:02 --> Unknown column 'pin' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$K6ng9YVkNL6CCsGGl4eScexJv73Frh/IbkJYdSsA.ybhC3RfYvNu.\',\'07/28/2023 07:03 PM\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$K6ng9YVkNL6CCsGGl4eScexJv73Frh/IbkJYdSsA.ybhC3RfYvNu.\',\'07/28/2023 07:03 PM\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$K6ng9YVkNL6CCsGGl4eScexJv73Frh/IbkJYdSsA.ybhC3RfYvNu.\',\'07/28/2023 07:03 PM\')')
+ 4 APPPATH\Models\UserModel.php(101): CodeIgniter\Database\BaseConnection->query('INSERT INTO `admin` (`user_id`, `user_name`, `user_number`,`pin`,`date`) VALUES (NULL, \'ansh\',\'9602964437\', \'$2y$10$K6ng9YVkNL6CCsGGl4eScexJv73Frh/IbkJYdSsA.ybhC3RfYvNu.\',\'07/28/2023 07:03 PM\')')
+ 5 APPPATH\Controllers\Auth.php(65): App\Models\UserModel->save1([...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Auth->admin_register()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\app_api\\public\\index.php')

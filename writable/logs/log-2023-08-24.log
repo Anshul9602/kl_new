@@ -1,0 +1,24 @@
+CRITICAL - 2023-08-24 00:00:05 --> Undefined array key "g_title"
+in APPPATH\Controllers\Result.php on line 294.
+ 1 APPPATH\Controllers\Result.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "g_title"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 294)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->sindex()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-24 00:00:17 --> Undefined array key "g_title"
+in APPPATH\Controllers\Result.php on line 289.
+ 1 APPPATH\Controllers\Result.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "g_title"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 289)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->sindex()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-24 00:01:03 --> Undefined array key "g_title"
+in APPPATH\Controllers\Result.php on line 289.
+ 1 APPPATH\Controllers\Result.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "g_title"', 'C:\\Users\\com\\Desktop\\ml_back\\app\\Controllers\\Result.php', 289)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->sindex()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')

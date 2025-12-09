@@ -1,0 +1,249 @@
+
+body {
+    background-color: #053B50;
+    text-align: center;
+    padding: 3px 10px;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-style: italic;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.sec-logo .logo {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.sec-disclaimer h4 {
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.sec-liveresult .liveresult {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.sec-liveresult .liveresult .title {
+    font-size: 25px;
+    background-color: #000;
+    color: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.sec-liveresult .liveresult h5 {
+    font-size: 22px;
+    background-color: transparent;
+    color: #008000;
+    text-shadow: 1px 1px #0000001f;
+    line-height: 1;
+}
+
+.sec-liveresult .liveresult h4 {
+    font-size: 22px;
+    background-color: transparent;
+    color: red;
+    text-shadow: 1px 1px #0000001f;
+}
+
+.sec-liveresult .liveresult h6 {
+    color: #7a028d;
+    font-size: 15px;
+    padding: 2px 0;
+    text-shadow: 1px 1px 2px #c4c4c4;
+    margin-bottom: 0;
+}
+
+.sec-liveresult .liveresult .result .result-sec {
+    border-bottom: 1px solid black;
+    padding: 3px;
+
+}
+
+.sec-ad {
+    margin-top: 3px;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 2px;
+    border: 2px solid white;
+    color: yellow;
+    line-height: 1.4;
+    font-size: 14px;
+    padding: 4px 10px;
+}
+
+.sec-fast {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.sec-fast .title {
+    border-radius: 4px;
+    background: #000;
+    color: #fff;
+    text-shadow: 1px 1px 0 #444;
+    letter-spacing: 1px;
+    font-size: 24px;
+    padding: 4px 4px 4px;
+    margin-bottom: 20px;
+}
+
+.sec-fast .fast h4 {
+    font-size: 22px;
+    background-color: transparent;
+    color: red;
+    text-shadow: 1px 1px #0000001f;
+}
+
+.sec-fast .fast h5 {
+    margin: 0;
+    font-size: 22px;
+    background-color: transparent;
+    color: #008000;
+    text-shadow: 1px 1px #0000001f;
+    line-height: 1;
+}
+
+.sec-fast .fast h6 {
+    color: #7a028d;
+    font-size: 15px;
+    padding: 2px 0;
+    text-shadow: 1px 1px 2px #c4c4c4;
+    margin-bottom: 0;
+}
+
+.sec-fast .fast .result-sec {
+    padding: 3px;
+    border-bottom: 1px solid black;
+
+}
+
+.btn_chart {
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 8px 0;
+    box-shadow: 0px 0px 1px #000000d6;
+    font-size: 12px;
+    margin: 2px 0 -1px;
+    transition: all .3s;
+    text-shadow: 1px 1px 2px #222;
+    margin-top: 5px;
+}
+
+/* .sec-enquiry .e-mail {
+
+} */
+.sec-enquiry .enquiry {
+    color: #fff;
+    font-size: 20px;
+}
+
+.sec-enquiry .e-mail a {
+    color: red;
+    border: 1px solid red;
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sec-jodichart {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.sec-jodichart h4 {
+    border-radius: 4px;
+    background: #000;
+    color: #fff;
+    text-shadow: 1px 1px 0 #444;
+    letter-spacing: 1px;
+    font-size: 24px;
+    padding: 4px 4px 4px;
+    margin-bottom: 20px;
+}
+
+.sec-jodichart a {
+    border-bottom: 2px solid #000;
+    color: #008000;
+    display: block;
+    font-size: 22px;
+    padding: 5px 7px 4px;
+    text-decoration: none;
+}
+
+.sec-panelchart {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.sec-panelchart h4 {
+    border-radius: 4px;
+    background: #000;
+    color: #fff;
+    text-shadow: 1px 1px 0 #444;
+    letter-spacing: 1px;
+    font-size: 24px;
+    padding: 4px 4px 4px;
+    margin-bottom: 20px;
+}
+
+.sec-panelchart a {
+    border-bottom: 2px solid #000;
+    color: #008000;
+    display: block;
+    font-size: 22px;
+    padding: 5px 7px 4px;
+    text-decoration: none;
+}
+
+.btn-lr {
+    border: 2px solid #000;
+    background-color: yellow;
+    color: #000;
+    padding: 7px 15px;
+    border-radius: 8px 0;
+    box-shadow: 0px 0px 1px #000000d6;
+    font-size: 12px;
+    margin: 2px 0 -1px;
+    display: inline-block;
+    transition: all .3s;
+}
+
+.refresh {
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.matkaplay {
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: auto;
+    left: 10px;
+}
+
+/* mobile.css */
+@media(max-width: 500px) {
+
+    body {
+        padding: 2px 5px;
+    }
+}
+
+@media(max-width: 500px) {
+    .logo img {
+        width: 150px;
+    }
+}

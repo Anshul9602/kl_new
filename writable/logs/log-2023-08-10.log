@@ -1,0 +1,49 @@
+ERROR - 2023-08-10 01:34:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE g_id = 1' at line 5 in C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `result_...', 0)
+#1 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `result_...')
+#2 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `result_...')
+#3 C:\Users\com\Desktop\ml_back\app\Models\ResultModel.php(141): CodeIgniter\Database\BaseConnection->query('UPDATE `result_...')
+#4 C:\Users\com\Desktop\ml_back\app\Controllers\Result.php(41): App\Models\ResultModel->update_close('1', Array)
+#5 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\Result->store()
+#6 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+#7 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\com\Desktop\ml_back\public\index.php(73): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\com\Desktop\ml_back\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\De...')
+#10 {main}
+CRITICAL - 2023-08-10 01:34:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE g_id = 1' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `result_de` SET  
+          close_date= \'08/10/2023 01:34 AM\',
+           Close_Panna= \'110\',
+        
+         WHERE g_id = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `result_de` SET  
+          close_date= \'08/10/2023 01:34 AM\',
+           Close_Panna= \'110\',
+        
+         WHERE g_id = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `result_de` SET  
+          close_date= \'08/10/2023 01:34 AM\',
+           Close_Panna= \'110\',
+        
+         WHERE g_id = 1')
+ 4 APPPATH\Models\ResultModel.php(141): CodeIgniter\Database\BaseConnection->query('UPDATE `result_de` SET  
+          close_date= \'08/10/2023 01:34 AM\',
+           Close_Panna= \'110\',
+        
+         WHERE g_id = 1')
+ 5 APPPATH\Controllers\Result.php(41): App\Models\ResultModel->update_close('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Result->store()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
+CRITICAL - 2023-08-10 12:37:56 --> Call to undefined method App\Models\BidModel::findUById
+in SYSTEMPATH\Model.php on line 838.
+ 1 APPPATH\Controllers\Bid.php(85): CodeIgniter\Model->__call('findUById', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Bid->B_all('4')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bid))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(73): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\com\\Desktop\\ml_back\\public\\index.php')
