@@ -12,7 +12,6 @@ function getJWTFromRequest($authenticationHeader): string
         throw new Exception('Missing or invalid JWT in request');
     }
     $data = explode(' ', $authenticationHeader);
-    print_r($data);
     
     //JWT is sent from client in the format Bearer XXXXXXXXX
     return $data[1];
@@ -24,7 +23,7 @@ function validateJWTFromRequest(string $encodedToken)
     
     $key = Services::getSecretKey();
     // $decodedToken = JWT::decode($encodedToken, $key, New array('HS256'));
-    $decodedToken = JWT::decode($encodedToken, new Key($key, 'HS256'), new stdClass());
+    $decodedToken = JWT::decode($encodedToken, new Key($key, 'HS256'));
 
     $userModel = new UserModel();
     $userModel->findUserByUserNumber($decodedToken->user_number);
