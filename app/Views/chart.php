@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>khatri 666</title>
+    <title>khatri 567</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="" rel="icon">
-    <link href="" rel="apple-touch-icon">
+    <link href="image/icon.png" rel="icon">
+    <link href="image/icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,7 +55,7 @@
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
             <a href="/" class="logo d-flex align-items-center">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
-                <img src="<?php echo base_url('image/logo.png'); ?>" style="max-width:250px;" alt="">
+                <img src="<?php echo base_url('image/logo1.png'); ?>" style="max-width:250px;" alt="">
                 <!-- <h1>ChargeSol<span>.</span></h1>  -->
             </a>
             <nav id="navbar" class="navbar">
@@ -285,7 +285,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="footer-copy text-center">
-                        <p class="py-3"><a href="">@2025 khatri 666</a></p>
+                        <p class="py-3"><a href="">@2025 khatri 567</a></p>
                     </div>
                 </div>
             </div>
